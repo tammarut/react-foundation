@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1656419694307" clover="3.2.0">
+  <project timestamp="1656419694307" name="All files">
+    <metrics statements="86" coveredstatements="76" conditionals="10" coveredconditionals="7" methods="29" coveredmethods="28" elements="125" coveredelements="111" complexity="0" loc="86" ncloc="86" packages="4" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.tsx" path="/home/khunpleum/Workspace/Personal/React/react-foundation/src/App.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="main.tsx" path="/home/khunpleum/Workspace/Personal/React/react-foundation/src/main.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.Note">
+      <metrics statements="24" coveredstatements="23" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+      <file name="index.tsx" path="/home/khunpleum/Workspace/Personal/React/react-foundation/src/modules/Note/index.tsx">
+        <metrics statements="24" coveredstatements="23" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="10" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.Note.hook">
+      <metrics statements="32" coveredstatements="32" conditionals="3" coveredconditionals="1" methods="10" coveredmethods="10"/>
+      <file name="useTimeTravel.ts" path="/home/khunpleum/Workspace/Personal/React/react-foundation/src/modules/Note/hook/useTimeTravel.ts">
+        <metrics statements="32" coveredstatements="32" conditionals="3" coveredconditionals="1" methods="10" coveredmethods="10"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="122" type="stmt"/>
+        <line num="6" count="122" type="stmt"/>
+        <line num="7" count="122" type="stmt"/>
+        <line num="9" count="122" type="stmt"/>
+        <line num="10" count="81" type="stmt"/>
+        <line num="12" count="81" type="stmt"/>
+        <line num="13" count="81" type="stmt"/>
+        <line num="17" count="122" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="26" count="122" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="35" count="122" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="41" count="122" type="stmt"/>
+        <line num="42" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="20" type="stmt"/>
+        <line num="47" count="122" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.Note.submodule">
+      <metrics statements="21" coveredstatements="21" conditionals="5" coveredconditionals="5" methods="10" coveredmethods="10"/>
+      <file name="NoteEditor.tsx" path="/home/khunpleum/Workspace/Personal/React/react-foundation/src/modules/Note/submodule/NoteEditor.tsx">
+        <metrics statements="15" coveredstatements="15" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="12" count="108" type="stmt"/>
+        <line num="21" count="108" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="108" type="stmt"/>
+        <line num="24" count="62" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="108" type="stmt"/>
+        <line num="40" count="62" type="stmt"/>
+        <line num="52" count="13" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+      </file>
+      <file name="NoteList.tsx" path="/home/khunpleum/Workspace/Personal/React/react-foundation/src/modules/Note/submodule/NoteList.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
